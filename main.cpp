@@ -3,7 +3,8 @@
 #include <string>
 #include <algorithm>
 
-struct Contact {
+class Contact {
+    public:
     std::string name;
     std::string phone;
     std::string email;
