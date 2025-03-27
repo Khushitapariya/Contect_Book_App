@@ -109,7 +109,7 @@ void deleteContact(std::vector<Contact> &contacts) {
     });
 
     if (it!= contacts.end()) {
-        contacts.erase(it, contacts.end());
+        contacts.erase(it);
         std::cout << "Contact deleted." << std::endl;
     } else {
         std::cout << "Contact not found." << std::endl;
